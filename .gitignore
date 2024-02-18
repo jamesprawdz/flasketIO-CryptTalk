@@ -1,0 +1,24 @@
+# Ignore environment variables file
+.env
+.venv
+
+# Ignore Python cache files and folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore Flask-Session files
+flask_session/
+
+# Ignore other files and folders that should not be tracked
+*.log
+*.sqlite
+*.egg-info/
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
